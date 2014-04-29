@@ -1,7 +1,9 @@
-#sections
+.sections
 {
 border-style:solid;
-border-width:1px;
+border-width: 1px;
+border-right: none;
+min-height: 250px;
 }
 .phonenum 
 {
@@ -32,7 +34,7 @@ border-width:1px;
 {
 	padding-top:15px;
 	padding-right: 15px;
-	padding-left: 15px;
+	padding-left: 20px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -94,7 +96,7 @@ text-shadow:0 0 3px #1E90FF;
 	opacity:1.0;
 	color:white;
 	position:absolute;
-	top:50%;
+	top:40%;
 	left:90%;
 	text-decoration:none;
 	font-weight:bold;
@@ -213,11 +215,11 @@ top:35%;
 #pad
 {
 	position:absolute;
-	left:5%;
+	left:2%;
 	top:20%;
 	background-color: black;
-	width: 35%;
-	height: 30%;
+	width: 30%;
+	height: 50%;
 	
 }
 }
