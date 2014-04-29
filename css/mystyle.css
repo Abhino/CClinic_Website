@@ -1,0 +1,229 @@
+#sections
+{
+border-style:solid;
+border-width:1px;
+}
+.phonenum 
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 32px;
+	text-align: center;
+	display: block;
+	width: 65%;
+	padding: 20px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:120%;
+	text-decoration:none;
+}	
+#collapseposition
+{
+	position:absolute;
+	left:82%;
+	top:15%;
+}
+#pages
+{
+	padding-top:120px;
+}
+.contain 
+{
+	padding-top:15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 20%;
+	opacity: 0.7;
+}
+#navvv
+{
+	opacity: 0.9;
+	font-size:120%;
+	cursor: pointer;		
+}
+#inner2
+{	
+	opacity: 1.9;
+}
+table,th,td
+{
+	border:1px solid black;
+	padding-right: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#navb li:hover
+{
+text-shadow:0 0 3px #1E90FF;
+}
+@media(max-width:767px){
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color:transparent;
+	width: 60%;
+	height: 70%;
+}
+#inner2 p,h3
+{
+	display:none;
+}
+.phonenum 
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	width: 56%;
+	padding: 0px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:50%;
+	left:90%;
+	text-decoration:none;
+	font-weight:bold;
+}		
+}
+
+@media(min-width:768px) and (max-width:889px){
+#navb
+{
+position:absolute;
+left:28%;
+top:35%;  
+}	  
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 90%;
+}
+.phonenum 
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	width: 80%;
+	padding: 20px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:50%;
+	left:180%;
+	text-decoration:none;
+	font-weight:bold;
+}	
+}
+@media(min-width:890px) and (max-width:1039px){
+#navb
+{
+position:absolute;
+left:32%;
+top:35%;  
+}	  
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 60%;
+}
+.phonenum 
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	width: 65%;
+	padding: 20px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:50%;
+	left:200%;
+	text-decoration:none;
+	font-weight:bold;
+}	
+}
+@media(min-width:1040px) and (max-width:1198px){
+#navb
+{
+position:absolute;
+left:38%;
+top:35%;  
+}	  
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 40%;
+}
+}
+@media(min-width:1199px) and (max-width:1334px){
+#navb
+{
+position:absolute;
+left:42%;
+top:35%;  
+}	  
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 35%;
+}
+}
+@media(min-width: 1335px){
+#navb
+{
+position:absolute;
+left:55%;
+top:35%;  
+}
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:20%;
+	background-color: black;
+	width: 35%;
+	height: 30%;
+	
+}
+}
+.navbar-nav > li{
+padding-left:5px;
+padding-right:5px;
+margin-right:5px;
+margin-left:5px;
+}
