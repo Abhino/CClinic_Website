@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset=”utf-8”>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Computer Clinic Website</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navvv"> <a href="index.html"><img src="img/logo.jpeg" class="img-responsive " ></a>
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="collapseposition"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    </div>
-    <div class="collapse navbar-collapse" id="pad2">
-      <ul class="nav navbar-nav navbar-right" id="navb">
-        <li  onclick="location.href='Services.html'"><strong>Services</strong></li>
-        <li  onclick="location.href='Parts.html'"><strong>Parts</strong></li>
-        <li  onclick="location.href='Product.html'"><strong>New Products</strong></li>
-        <li  onclick="location.href='Contact.html'"><strong>Contact Us</strong></li>
-        <li  onclick="location.href='Meetthestaff.html'"><strong>Meet the Staff</strong></li>
-      </ul>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="navvv"> <a href="index.html"><img src="img/logos.gif" class="img-responsive" alt="Site Logo" ></a>
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="collapseposition"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div class="collapse navbar-collapse" id="pad2">
+        <ul class="nav navbar-nav navbar-right" id="navb">
+          <li  onclick="location.href='Services.html'"><strong>Services</strong></li>
+          <li  onclick="location.href='Parts.html'"><strong>Parts</strong></li>
+          <li  onclick="location.href='Product.html'"><strong>New Products</strong></li>
+          <li  onclick="location.href='Meetthestaff.html'"><strong>Meet the Staff</strong></li>
+          <li  onclick="location.href='Location.html'"><strong>Location</strong></li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
-<div class="container" id="pages">
-<h4> Here are our various services : </h4>
-<div class="panel-group" id="accordion">
+  <div class="contain" id="pages">
+  <div class="row">
+  <div class="col-md-8">
+      <h3>Labour prices - Effective March 1,2014</h3>
+      <h4>$45.00 per hour</h4>
+      <h4>Maximum charge of Four hours</h4>
+      <h4>Minimum charge of 1/2 hour: $22.50 </h4>
+    <div class="panel-group" id="accordion">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" 
-               href="#collapseOne"> Labor Cost per hour : 45$ </a> </h4>
+               href="#collapseOne"> Virus and Malware Cleanup: $90 - $135 </a> </h4>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in">
       <div class="panel-body"> We here at computer clinic charge a resonable rate for our labour. Your time is valuable for us!</div>
@@ -39,28 +44,38 @@
   <div class="panel panel-success">
     <div class="panel-heading">
       <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" 
-               href="#collapseTwo">House Call Cost per hour : 69$  </a> </h4>
+               href="#collapseTwo">OS Reload: $90 - $135</a> </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="panel-body"> We here at computer clinic also offer our services at your convinience at home. Just give us a call and we will be there to fix your problem!!</div>
+      <div class="panel-body"> Having problems with your operating system? We here at computer clinic can reload an OS for reasonable charge.</div>
     </div>
   </div>
   <div class="panel panel-info">
     <div class="panel-heading">
       <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" 
-               href="#collapseThree"> Business Call Cost per hour : 69$ </a> </h4>
+               href="#collapseThree">Data recover: $135 - $180 </a> </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body"> Issue at work? We here at computer clinic also offer our services at your Workplace. Just give us a call and we will be there to fix your problem!</div>
+      <div class="panel-body"> Computer Broke down? Need valuable data ? We here at Computer clinic will recover all you important data so that you can continue working while your computer is under repair.</div>
     </div>
   </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script>
-		$('.carousel').carousel({
-		  interval: 2000
-		})
-		</script>
+</div>
+  <div class="col-md-4">
+    <h2><u>Store Timings</u></h2>
+    <p class="lead">
+    Monday - Tuesday: 10AM - 6PM<br>
+    Wednesday - Thursday: Noon - 4PM<br>
+    Friday: Noon - 8PM<br>        
+    Saturday: Noon - 4PM<br>  
+    Sunday: Closed<br>  
+    </p>
+  </div>
+</div>
+</div>  
+  <hr>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/myscript.js"></script>
 </body>
 </html>

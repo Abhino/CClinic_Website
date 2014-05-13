@@ -1,9 +1,18 @@
 .sections
 {
-border-style:solid;
-border-width: 1px;
-border-right: none;
-min-height: 250px;
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+.top-buffer 
+{ 
+	margin-top:20px; 
+}
+.icons
+{
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
 }
 .phonenum 
 {
@@ -20,6 +29,34 @@ min-height: 250px;
 	top:120%;
 	text-decoration:none;
 }	
+.phonenum2 
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 32px;
+	text-align: center;
+	display: block;
+	width: 65%;
+	padding: 20px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:100%;
+	text-decoration:none;
+}
+iframe
+{
+	width:800;
+	height:600;
+	border:0
+}	
+.inner {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+  }
 #collapseposition
 {
 	position:absolute;
@@ -29,14 +66,14 @@ min-height: 250px;
 #pages
 {
 	padding-top:120px;
+	padding-bottom: 15px;
 }
 .contain 
 {
-	padding-top:15px;
-	padding-right: 15px;
-	padding-left: 20px;
-	margin-right: auto;
-	margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 #pad
 {
@@ -47,6 +84,9 @@ min-height: 250px;
 	width: 35%;
 	height: 20%;
 	opacity: 0.7;
+	border-radius:6px;
+	text-align:justify;
+	padding:10px;
 }
 #navvv
 {
@@ -96,30 +136,64 @@ text-shadow:0 0 3px #1E90FF;
 	opacity:1.0;
 	color:white;
 	position:absolute;
-	top:40%;
-	left:90%;
+	top:10%;
+	left:-5%;
 	text-decoration:none;
 	font-weight:bold;
 }		
-}
 
-@media(min-width:768px) and (max-width:889px){
+}
+@media(min-width:768px) and (max-width:799px){
 #navb
 {
 position:absolute;
-left:28%;
+left:23%;
 top:35%;  
 }	  
 #pad
 {
 	position:absolute;
 	left:5%;
-	top:20%;
+	top:18%;
+	background-color: black;
+	width: 45%;
+	height: 30%;
+}
+.phonenum
+{
+	background-color: rgb(50, 180, 228);
+	border-radius: 5px 5px 5px 5px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	width: 80%;
+	padding: 20px;
+	opacity:1.0;
+	color:white;
+	position:absolute;
+	top:50%;
+	left:125%;
+	text-decoration:none;
+	font-weight:bold;
+}	
+}
+@media(min-width:800px) and (max-width:889px){
+#navb
+{
+position:absolute;
+left:23%;
+top:35%;  
+}	  
+#pad
+{
+	position:absolute;
+	left:5%;
+	top:15%;
 	background-color: black;
 	width: 35%;
-	height: 90%;
+	height: 30%;
 }
-.phonenum 
+.phonenum
 {
 	background-color: rgb(50, 180, 228);
 	border-radius: 5px 5px 5px 5px;
@@ -150,23 +224,23 @@ top:35%;
 	left:5%;
 	top:20%;
 	background-color: black;
-	width: 35%;
-	height: 60%;
+	width: 65%;
+	height: 25%;
 }
 .phonenum 
 {
 	background-color: rgb(50, 180, 228);
 	border-radius: 5px 5px 5px 5px;
-	font-size: 28px;
+	font-size: 20px;
 	text-align: center;
 	display: block;
-	width: 65%;
-	padding: 20px;
+	width: 40%;
+	padding: 10px;
 	opacity:1.0;
 	color:white;
 	position:absolute;
-	top:50%;
-	left:200%;
+	top:5%;
+	left:102%;
 	text-decoration:none;
 	font-weight:bold;
 }	
@@ -185,7 +259,7 @@ top:35%;
 	top:20%;
 	background-color: black;
 	width: 35%;
-	height: 40%;
+	height: 50%;
 }
 }
 @media(min-width:1199px) and (max-width:1334px){
@@ -202,7 +276,7 @@ top:35%;
 	top:20%;
 	background-color: black;
 	width: 35%;
-	height: 35%;
+	height: 45%;
 }
 }
 @media(min-width: 1335px){
@@ -216,11 +290,17 @@ top:35%;
 {
 	position:absolute;
 	left:2%;
-	top:20%;
+	top:55%;
 	background-color: black;
 	width: 30%;
 	height: 50%;
 	
+}
+}
+@media(min-width:1173px){
+.sections
+{
+ 	min-height:340px;
 }
 }
 .navbar-nav > li{
